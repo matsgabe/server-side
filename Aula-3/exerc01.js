@@ -1,3 +1,7 @@
+/* 1. Crie uma função para converter graus célsius em graus fahrenheit e outra para
+conversão contrária, de modo que o usuário escolha o tipo de conversão.
+*/
+
 const read = require(`readline-sync`)
 
 let opcao = ""
