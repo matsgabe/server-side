@@ -20,9 +20,9 @@ function fahrenheitToCelsius(fahrenheit) {
 temperatura = read.question("Informe a temperatura: ")
 opcao = read.question("Escolha `F` para Fahrenheit para Celsiu e `C` de Celsius para Fahrenheit: ")
 
-if (opcao == `F` || opcao == `f`) {
+if (opcao.toUpperCase() == 'F') {
     fahrenheitToCelsius(temperatura)
-} else if (opcao == `C` || opcao == `c`) {
+} else if (opcao.toUpperCase() == 'C') {
     celsiusToFahrenheit(temperatura)
 } else {
     console.log('Programa não aceita outro tipo de conversão')
